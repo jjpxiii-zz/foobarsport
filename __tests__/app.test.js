@@ -15,6 +15,13 @@ describe('foobar API tests', () => {
     });
   });
 
+  it('any other call except players should response the GET method, with 200', done => {
+    agent.get('/rogerestlemeilleur/foo/bar').then(response => {
+      expect(response.statusCode).toBe(404);
+      done();
+    });
+  });
+
   it('players should response a 200', done => {
     agent.get('/players/').then(response => {
       expect(response.statusCode).toBe(200);
