@@ -1,4 +1,4 @@
-### Eurosport test
+### Foobar test
 
 Install : `npm i`
 

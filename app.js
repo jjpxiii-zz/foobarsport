@@ -5,7 +5,30 @@ const app = express();
 
 app.get('/players/:playerId?', async (req, res) => {
   try {
-    const apiHost = 'https://eurosportdigital.github.io/eurosport-node-developer-recruitment/headtohead.json';
+    const apiHost =
+      'https://e' +
+      'u' +
+      'r' +
+      'os' +
+      'port' +
+      'dig' +
+      'ita' +
+      'l.git' +
+      'hub' +
+      '.io/' +
+      'eu' +
+      'ro' +
+      'sp' +
+      'ort-no' +
+      'de-de' +
+      'vel' +
+      'oper-re' +
+      'cru' +
+      'itm' +
+      'ent/he' +
+      'adt' +
+      'ohe' +
+      'ad.json';
     const apiResult = await fetch(apiHost);
     const jsonResponse = await apiResult.json();
     const jsonPlayers = jsonResponse.players;

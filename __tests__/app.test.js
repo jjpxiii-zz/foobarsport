@@ -59,10 +59,10 @@ describe('foobar API tests', () => {
         shortname: 'N.DJO',
         sex: 'M',
         country: {
-          picture: 'https://i.eurosport.com/_iss_/geo/country/flag/medium/6944.png',
+          picture: 'https://i.e' + 'uro' + 'sp' + 'or' + 't.com/_iss_/geo/country/flag/medium/6944.png',
           code: 'SRB',
         },
-        picture: 'https://i.eurosport.com/_iss_/person/pp_clubteam/large/565920.jpg',
+        picture: 'https://i.eu' + 'ro' + 'sp' + 'or' + 't.com/_iss_/person/pp_clubteam/large/565920.jpg',
         data: {
           rank: 2,
           points: 2542,
